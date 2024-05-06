@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Kitchen Story",
+    "slug": "kitchen-story",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff7a0"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ff7a0"
+      },
+      "package": "com.rohan.kitchenstory"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
